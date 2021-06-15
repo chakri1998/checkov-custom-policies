@@ -1,0 +1,12 @@
+---
+metadata:
+ name: "EC2 Resource should allways be tagged as a good practice."
+ id: "CKV2_AWS_2"
+ category: "NETWORKING"
+definition:
+ and:
+ - cond_type: "attribute"
+   resource_types:
+    - "aws_instance"
+   attribute: "tags"
+   operator: "exists"
