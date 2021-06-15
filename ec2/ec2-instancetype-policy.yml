@@ -1,7 +1,7 @@
 ---
 metadata:
  name: "EC2 Resource should be always provisined in t2.micro in order to avoid billing till AWS free trail "
- id: "CKV2_AWS_1"
+ id: "CKV2_AWS_INSTANCE_TYPE"
  category: "NETWORKING"
 definition:
  and:
