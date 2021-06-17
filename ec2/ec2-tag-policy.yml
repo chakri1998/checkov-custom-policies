@@ -1,7 +1,7 @@
 ---
 metadata:
  name: "EC2 Resource should allways be tagged as a good practice."
- id: "CKV2_AWS_TAG"
+ id: "AWS_TAG"
  category: "NETWORKING"
 definition:
  and:
